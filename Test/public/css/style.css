@@ -1,0 +1,57 @@
+body {
+    background-image: url("../img/af.jpg");
+}
+
+.container {
+    width: 450px;
+    height: 350px;
+    background-color: #3983ff;
+    margin: 200px auto 0 auto;
+    text-align: center;
+    box-shadow: 0 -5px 0 #2432FF;
+    border-radius: 15px 15px 0 0;
+}
+
+input[type="email"], input[type="password"] {
+    width: 300px;
+    height: 50px;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    border-radius:4px;
+    padding-left:10px;
+    border-bottom-color: #1b20ff;
+    background-color: snow ;
+}
+
+.dws-submit {
+    padding: 13px 30px;
+    margin: 5px 0 20px 0;
+    font-size: 15px;
+    color: #fff;
+    background-color: #1b20ff;
+    cursor: pointer;
+}
+
+.dws-submit:hover {
+    transition: all 0.5s ;
+    background: #5965FF ;
+    color: #fff;
+}
+
+.clock {
+    margin: auto;
+    background-color: #3983ff;
+    text-align: center;
+    color: black;
+    width: 450px;
+    height: 50px;
+    border-radius: 0 0 15px 15px;
+    font-size: 15pt;
+}
+
+/*.reg_pass_err {
+    margin: auto;
+    width: 300px;
+    color: black;
+}*/

@@ -3,16 +3,19 @@ body {
 }
 
 .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     width: 450px;
-    height: 350px;
+    height: 300px;
     background-color: #3983ff;
-    margin: 200px auto 0 auto;
+    margin: 100px auto 0 auto;
     text-align: center;
     box-shadow: 0 -5px 0 #2432FF;
-    border-radius: 15px 15px 0 0;
+    border-radius: 15px 15px 15px 15px;
 }
 
-input[type="email"], input[type="password"] {
+.form-elem {
     width: 300px;
     height: 50px;
     font-size: 16px;
@@ -40,18 +43,26 @@ input[type="email"], input[type="password"] {
 }
 
 .clock {
-    margin: auto;
+    margin: 50px auto 0 auto;
     background-color: #3983ff;
     text-align: center;
-    color: black;
-    width: 450px;
+    color: white;
+    width: 300px;
     height: 50px;
-    border-radius: 0 0 15px 15px;
-    font-size: 15pt;
+    border-radius: 15px 15px 15px 15px;
+    font-size: 14pt;
+    box-shadow: 0 -5px 0 #2432FF;
 }
 
-/*.reg_pass_err {
-    margin: auto;
-    width: 300px;
-    color: black;
-}*/
+
+.val_msg {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 30px;
+    color: white;
+
+}
+/*.reg_pass_err {*/
+    /*color: black;*/
+/*}*/

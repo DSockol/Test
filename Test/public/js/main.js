@@ -4,6 +4,6 @@ $(document).ready(function () {
     var clock = new Clock(); //конструктор даты и время
 
     clock.tick();
-    setInterval(clock.tick, 1000);
+    setInterval(clock.tick, 1000); //интервал через которое будет срабатывать функция
 
 });
